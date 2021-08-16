@@ -9,18 +9,11 @@ figure, header, nav, section, article, aside, footer, figcaption {
   border: 0;
   outline: 0;
 }
-
-
-
-
-
 ul, li {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-
-
 * {
   box-sizing: border-box;
 }
@@ -541,7 +534,7 @@ nav .mainMenu li a:hover {
 /*End of About us */
 
 body{
-  background-image: url(/Image/Backgroundimage.jpg);
+  background-image: url(/Image/Backgroundmobile.jpg);
   background-attachment: fixed;
   background-position: center;
 }
