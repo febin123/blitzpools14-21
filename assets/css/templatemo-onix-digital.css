@@ -1002,7 +1002,7 @@ Footer Style
 }
 @media (max-width: 702px) {
 	.footer{
-    margin-top: 20px;
+    margin-top: 0px;
   }
   
   .footer-about .footer-widget i{
