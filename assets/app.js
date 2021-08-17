@@ -62,7 +62,7 @@ const backToTopButton = document.querySelector("#back-to-top-btn");
 window.addEventListener("scroll", scrollFunction);
 
 function scrollFunction() {
-  if (window.pageYOffset > 300) { // Show backToTopButton
+  if (window.pageYOffset > 620) { // Show backToTopButton
     if(!backToTopButton.classList.contains("btnEntrance")) {
       backToTopButton.classList.remove("btnExit");
       backToTopButton.classList.add("btnEntrance");
@@ -119,7 +119,7 @@ function easeInOutCubic(t, b, c, d) {
 
 $(document).ready(function(){
 	$(window).scroll(function () {
-			if ($(this).scrollTop() > 200) {
+			if ($(this).scrollTop() > 620) {
 				$('#back-to-top').fadeIn();
 			} else {
 				$('#back-to-top').fadeOut();
